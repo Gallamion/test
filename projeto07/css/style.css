@@ -1,0 +1,56 @@
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+  min-height: 400px;
+  position: relative;
+}
+
+.form-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{  
+  font-size: 30px;
+  color: #666;  
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  background-color: white;
+  padding-right: 15px;
+}
+
+.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  background-color: #777;
+  top: 55px;
+  left: 0;
+  z-index: 1;
+  
+}
+
+.offset-equipe{
+  position: relative;
+  top: 87px;
+}
+
+@media screen and (max-width: 780px){
+  .offset-equipe{
+    top: 0px;
+  }
+}
